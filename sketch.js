@@ -74,7 +74,7 @@ function sendTheMessage() {
     // if they did, save their name to the variable "you"
     you = nameInput.value();
     // load a new page when you press submit
-    window.location.href = "https://yyan168.github.io/vpsc70-a2/-pagetwo/index.html?you=" + you + "&r=" + redVal + "&g=" + greenVal + "&b=" + blueVal;
+    window.location.href = "https://yyan168.github.io/vpsc70-a2/_pageTwo/index.html" + you + "&r=" + redVal + "&g=" + greenVal + "&b=" + blueVal;
 
   } else {
     // if they have no entered their name, create an alert and ask them to enter their name
